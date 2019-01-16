@@ -25,5 +25,8 @@
     "babel-preset-env": "^1.7.0",
     "cross-env": "^5.2.0",
     "regenerator-runtime": "^0.13.1"
+  },
+  "dependencies": {
+    "@krisell/better-arguments": "^1.1.0"
   }
 }
