@@ -1,0 +1,29 @@
+{
+  "name": "@krisell/rawxhr",
+  "version": "1.0.0",
+  "description": "Wrapper for raw XHR-requests.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run build && jest",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir lib",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krisell/rawxhr.git"
+  },
+  "author": "Martin Krisell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Krisell/rawxhr/issues"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "regenerator-runtime": "^0.13.1"
+  }
+}
